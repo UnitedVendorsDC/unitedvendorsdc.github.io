@@ -13,5 +13,35 @@
   {% include contact.html %}
   {% include scripts.html %}
 </body>
-
+	<head>
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+      
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+      
+		</head>
+		<body>
+			<nav>
+	    		<ul>
+	        		<li><a href="/">Home</a></li>
+		        	<li><a href="about.html">About The Campaign</a></li>
+	        		<li><a href="ourCoalition.html">Who We Are</a></li>
+				<li><a href="theProblem.html">Vendors Speak!</a></li>
+				<li><a href="theSolution.html">Get Involved</a></li>
+				<li><a href="weBelieve.html">Campaign Endorsers</a></li>
+				<li><a href="news.html">Press</a></li>
+	    		</ul>
+			</nav>
+			<div class="container">
+			
+			{{ content }}
+			
+			</div><!-- /.container -->
+			<footer>
+	    		<ul>
+	        		<li><a href="mailto:example@gmail.com">email</a></li>
+	        		<li><a href="https://github.com/">github.com/example</a></li>
+				</ul>
+			</footer>
+		</body>
 </html>
