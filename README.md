@@ -7,6 +7,8 @@ The theme includes a number of rich features and plugins that you can use as a g
 
 See it live in action at <https://volny.github.io/creative-theme-jekyll/>
 
+Github code: https://github.com/volny/creative-theme-jekyll
+
 ## To use the Creative Theme template in your project
 
 - Start by adding your info in `_config.yml`
