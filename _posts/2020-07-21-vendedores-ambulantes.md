@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: page-1
 title: 'Vendedores ambulantes en Columbia Heights denuncian acoso policial'
 date: '2020-07-21'
 ---
