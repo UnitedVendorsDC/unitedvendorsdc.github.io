@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: page-1
 title: 'D.C. street vendors to become public health ambassadors to help curb the spread of coronavirus'
 date: '2020-03-14'
 ---
