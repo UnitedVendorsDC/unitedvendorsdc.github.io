@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: page-1
 title: 'Events DC will give $15 million in covid-19 relief to hospitality workers, undocumented immigrants'
 date: '2020-04-09'
 ---
