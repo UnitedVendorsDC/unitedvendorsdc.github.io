@@ -11,7 +11,7 @@ title: Our Coalition
 Somos una coalición de vendedores ambulantes en Washington, D.C. Nuestra pasión es servir a nuestra comunidad. Muchos de nosotros hacemos esto vendiendo comida culturales. Otros vendedores venden ropa, lociones e incluso máscaras. Juntos, somos Vendedores Unidos activos en la comunidad para llenarla con cultura y ayudar a crecer la economía.
 <a href="/about"></a></p>
   
-</div><!-- /.blurb --> -->
+</div><!-- /.blurb --> 
 
 <!-- MARKDOWN -->
 <div class="blurb">
