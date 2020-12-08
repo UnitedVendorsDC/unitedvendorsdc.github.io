@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: page-1
 title: 'Washington vendedores ambulantes'
 date: '2020-07-01'
 ---
