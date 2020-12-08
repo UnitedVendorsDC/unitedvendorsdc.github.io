@@ -1,4 +1,7 @@
-# Creative Theme for Jekyll
+# United Vendors // Vendedores Unidos
+Welcome to our page. Please use this website to find the content and code to support it on this website.
+
+## Creative Theme for Jekyll
 
 A Jekyll implementation of the [Creative Theme](http://startbootstrap.com/template-overviews/creative/) template by [Start Bootstrap](http://startbootstrap.com).
 
