@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: page-1
 title: 'Vendedores ambulantes piden asistencia durante pandemia'
 date: '2020-05-14'
 ---
