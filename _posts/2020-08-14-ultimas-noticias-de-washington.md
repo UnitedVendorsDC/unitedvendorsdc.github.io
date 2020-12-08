@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: page-1
 title: 'Últimas noticias de Washington D.C., el norte de Virginia y Maryland'
 date: '2020-08-14'
 ---
