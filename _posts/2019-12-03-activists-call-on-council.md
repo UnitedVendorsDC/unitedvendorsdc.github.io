@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: page-1
 title: 'Activists Call on Council to Help Street Vendors Who Face Police Harassment'
 date: '2019-12-03'
 ---
