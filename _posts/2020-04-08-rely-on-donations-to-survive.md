@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: page-1
 title: 'Unable to Sell, DC Street Vendors Rely on Donations to Survive'
 date: '2020-04-08'
 ---
