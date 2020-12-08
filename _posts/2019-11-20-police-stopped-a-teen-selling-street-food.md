@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: page
 title: 'D.C. police stopped a teen selling street food. Now there’s an investigation into the incident'
 date: '2019-11-20'
 ---
