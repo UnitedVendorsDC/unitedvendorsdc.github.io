@@ -19,21 +19,38 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Vendedores Unidos
-email: your-email@example.com
+#email: your-email@example.com
+#description for the website. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+  We are a coalition of street vendors in Washington, D.C. Our passion is to serve our community. 
+  Many of us do this by vending cultural foods. Other vendors sell clothing, lotions, and even face masks. 
+  Together, we are United Vendors active in the community to enrich it with culture and to help it grow the economy.
+  Somos una coalición de vendedores ambulantes en Washington, D.C. 
+  Nuestra pasión es servir a nuestra comunidad. 
+  Muchos de nosotros hacemos esto vendiendo comida culturales. 
+  Otros vendedores venden ropa, lociones e incluso máscaras. 
+  Juntos, somos Vendedores Unidos activos en la comunidad para llenarla con cultura y ayudar a crecer la economía.
+#baseurl: "" # the subpath of your site, e.g. /blog
+# the base hostname & protocol for your site, e.g. http://example.com
+url: "https://unitedvendorsdc.github.io" 
+#twitter_username: jekyllrb
+#github_username:  jekyll
 
 # Build settings
 #theme: creative-theme-jekyll
 markdown: kramdown
 #plugins:
   #- jekyll-feed
+permalink: /:title
+
+defaults: 
+  - 
+    scope: 
+      path: "" 
+      type: "posts" 
+    values: 
+      layout: "posts"
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -54,7 +71,3 @@ markdown: kramdown
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-
-#name: UVDC Page
-#markdown: kramdown
