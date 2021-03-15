@@ -84,13 +84,16 @@ aside {
             color: darken($theme-primary, 10%);
         }
     }
+    .navbar-brand {
+      font-size: 2.25rem;
+    }
     .nav {
         > li {
             > a,
             > a:focus {
                 text-transform: uppercase;
                 font-weight: 700;
-                font-size: 13px;
+                font-size: 1.75rem;
                 color: $theme-dark;
                 &:hover {
                     color: $theme-primary;
@@ -112,7 +115,7 @@ aside {
         background-color: transparent;
         border-color: rgba(white, .3);
         .navbar-header .navbar-brand {
-            color: rgba(white, .7);
+            color: rgba(white, .8);
             &:hover,
             &:focus {
                 color: white;
@@ -120,7 +123,7 @@ aside {
         }
         .nav > li > a,
         .nav > li > a:focus {
-            color: rgba(white, .7);
+            color: rgba(white, .8);
             &:hover {
                 color: white;
             }
@@ -144,65 +147,75 @@ aside {
                 }
             }
         }
+        &.affix-top {
+          background-color:rgba(0, 0, 0, 0.6);
+        }
     }
 }
 
 // Homepage Header
 
-header {
+.header {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  @include background-cover;
+  background-position: center;
+  background-image: url('../img/home-hero.jpg');
+  text-align: center;
+  color: #fff;
+
+  &-content {
     position: relative;
-    width: 100%;
-    min-height: auto;
-    @include background-cover;
-    background-position: center;
-    background-image: url('../img/roman-arkhipov-4hxEOapTQGU-unsplash.jpg');
     text-align: center;
-    color: white;
+    padding: 100px 15px 100px;
+    width: 100%;
+    &-inner {
+      hr {
+        margin: 30px auto;
+      }
+    }
+    &-title {
+      background: rgba(0, 0, 0, 0.7);
+      font-size: 4rem;
+      font-weight: 700;
+      display: inline-block;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding: 10px;
+      text-transform: uppercase;
+    }
+    &-subtitle {
+      background: rgba(0, 0, 0, 0.7);
+      display: inline-block;
+      font-weight: 300;
+      font-size: 2rem;
+      margin-bottom: 50px;
+      padding: 10px;
+    }
+  }
+  @media (min-width: 768px) {
+      min-height: 100%;
     .header-content {
-        position: relative;
-        text-align: center;
-        padding: 100px 15px 100px;
-        width: 100%;
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        padding: 0 50px;
         .header-content-inner {
-            h1 {
-                font-weight: 700;
-                text-transform: uppercase;
-                margin-top: 0;
-                margin-bottom: 0;
-            }
-            hr {
-                margin: 30px auto;
-            }
-            p {
-                font-weight: 300;
-                color: rgba(white, .7);
-                font-size: 16px;
-                margin-bottom: 50px;
-            }
+          max-width: 1000px;
+          margin-left: auto;
+          margin-right: auto;
+          p {
+            font-size: 18px;
+            max-width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+          }
         }
     }
-    @media (min-width: 768px) {
-        min-height: 100%;
-        .header-content {
-            position: absolute;
-            top: 50%;
-            -webkit-transform: translateY(-50%);
-            -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
-            padding: 0 50px;
-            .header-content-inner {
-                max-width: 1000px;
-                margin-left: auto;
-                margin-right: auto;
-                p {
-                    font-size: 18px;
-                    max-width: 80%;
-                    margin-left: auto;
-                    margin-right: auto;
-                }
-            }
-        }
-    }
+  }
 }
 
 // Sections
@@ -348,4 +361,3 @@ img::-moz-selection {
 body {
     -webkit-tap-highlight-color: $theme-dark;
 }
-
