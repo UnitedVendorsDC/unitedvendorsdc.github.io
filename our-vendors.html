@@ -1,0 +1,21 @@
+---
+layout: page
+title: Our Vendors / Nuestros Vendedores
+---
+
+<div class="blurb">
+
+	<h1>Our Vendors</h1>
+	<h2>Nuestros Vendedores</h2>
+	<h2>Hear our stories / Eschucha nuestros cuentos</h2>
+
+  <ul>
+  {% for vendor in site.vendors %}
+    <li>
+      <h3><a href="{{ vendor.url }}">{{ vendor.title }}</a></h3>
+      <p>{{ vendor.content | markdownify | truncatewords: 50 }}</p>
+    </li>
+  {% endfor %}
+</ul>
+
+</div><!-- /.blurb -->

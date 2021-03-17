@@ -153,6 +153,29 @@ aside {
     }
 }
 
+.navbar-page {
+  @include background-cover;
+  background-position: center;
+  background-image: url('../img/home-hero.jpg');
+  color: #fff;
+  min-height: 200px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+
+  &:before {
+    background-color: rgba(0, 0, 0, 0.7);
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+  }
+}
+
 // Homepage Header
 
 .header {
@@ -216,6 +239,12 @@ aside {
         }
     }
   }
+}
+
+// Page container
+
+.container {
+  margin-top: 10px;
 }
 
 // Sections
