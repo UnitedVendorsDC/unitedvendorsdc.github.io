@@ -9,11 +9,11 @@ title: Our Vendors / Nuestros Vendedores
 	<h2>Nuestros Vendedores</h2>
 	<h2>Hear our stories / Eschucha nuestros cuentos</h2>
 
-  <ul>
+  <ul class="vendors-list">
   {% for vendor in site.vendors %}
-    <li>
+    <li class="vendors-list-item">
       <h3><a href="{{ vendor.url }}">{{ vendor.title }}</a></h3>
-      <p>{{ vendor.content | markdownify | truncatewords: 50 }}</p>
+      <p>{{ vendor.content | markdownify | truncatewords: 50 }} <a href="{{ vendor.url }}">Read more</a></p>
     </li>
   {% endfor %}
 </ul>

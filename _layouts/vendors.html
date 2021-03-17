@@ -4,19 +4,14 @@
 {% include head.html %}
 
 <body id="page-top">
-  {% include nav.html %}
+  {% include nav-page.html %}
 
-  <div class="container">
-
-  <section class="post-wrapper">
-
-  </section>
-  <h1 class="post-title">{{page.title}}</h1>
-  <article class="post-content">
-    {{content}}
-  </article>
-
-  <div class="container">
+  <div class="vendors">
+    <h1 class="post-title">{{page.title}}</h1>
+    <article class="post-content">
+      {{content}}
+    </article>
+  </div>
 
   {% include contact.html %}
   {% include scripts.html %}
