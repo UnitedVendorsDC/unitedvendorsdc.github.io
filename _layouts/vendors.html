@@ -10,11 +10,14 @@
     <div class="vendors blurb">
       <h1 class="post-title">{{page.title}}</h1>
       <article class="post-content">
+        {% if page.image %}
+          <img class="vendors-image" src="{{ page.image }}" alt="" aria-hidden="true">
+        {% endif %}
         {{content}}
       </article>
     </div>
   </div>
-  
+
   {% include contact.html %}
   {% include scripts.html %}
 </body>

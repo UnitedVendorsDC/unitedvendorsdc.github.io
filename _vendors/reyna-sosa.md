@@ -1,6 +1,7 @@
 ---
 title: Reyna Sosa
 layout: vendors
+image: /img/vendors/reyna.jpg
 ---
 
 Despite facing obstacles and setbacks over the ten years working as a street vendor, Reyna Sosa is still dedicated to waking up every day before sunrise to prepare mangos, watermelon, chicken tacos, plantains, yucca con chicharron, and crazy corn for her cart. Reyna can be found on Fourteenth Street vending from her cart until late at night no matter the weather conditions.

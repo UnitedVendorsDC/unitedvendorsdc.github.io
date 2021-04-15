@@ -12,8 +12,13 @@ title: Our Vendors / Nuestros Vendedores
   <ul class="vendors-list">
   {% for vendor in site.vendors %}
     <li class="vendors-list-item">
-      <h3><a href="{{ vendor.url }}">{{ vendor.title }}</a></h3>
-      <p>{{ vendor.content | markdownify | truncatewords: 50 }} <a href="{{ vendor.url }}">Read more</a></p>
+      {% if vendor.image %}
+        <img class="vendors-list-item-image" src="{{ vendor.image }}" alt="" aria-hidden="true">
+      {% endif %}
+      <div>
+        <h3><a href="{{ vendor.url }}">{{ vendor.title }}</a></h3>
+        <p>{{ vendor.content | markdownify | truncatewords: 50 }} <a href="{{ vendor.url }}">Read more</a></p>
+      </div>
     </li>
   {% endfor %}
 </ul>

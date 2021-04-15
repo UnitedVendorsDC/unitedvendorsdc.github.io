@@ -1,6 +1,7 @@
 ---
 title: Maria Vasquez
 layout: vendors
+image: /img/vendors/maria.jpg
 ---
 
 Like many immigrants in the United States, Maria had a well-established life in her home country of El Salvador; she even owned a convenience store and sold pupusas and tamales for some years. Maria lived a simple and happy life until gang violence rampantly took over her town.  After gangs targeted Maria because she was a business owner, she packed her bags and moved to the United States with her five children, searching for a better and safer life. While establishing her new life in Mount Pleasant, Maria became a street vendor because it was second nature to her since she sold food in her home country. Street vending was the ideal job for Maria as a single mother because she worked a part-time job to look after her children when they were out of school but still needed the additional income.
