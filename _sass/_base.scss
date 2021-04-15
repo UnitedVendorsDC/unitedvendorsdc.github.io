@@ -344,6 +344,66 @@ aside {
   }
 }
 
+// Report
+
+.report {
+  margin-top: 30px;
+  position: relative;
+
+  &-flex {
+    transition: transform 250ms linear;
+    transform: scale(1);
+
+    &-item {
+
+      &-image {
+        max-width: 300px;
+      }
+
+      &-link{
+
+      }
+
+      @media (min-width: 768px) {
+        margin-left: 20px;
+      }
+    }// end report flex item
+
+    &-link {
+      bottom: 0;
+      height: 100%;
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 100%;
+      z-index: 1;
+
+      &:active, &:focus, &:hover {
+        + .report-flex {
+          color: $theme-primary;
+          text-decoration: underline;
+          transition: transform 250ms linear;
+          transform: scale(1.1);
+        }
+      }
+
+    }
+
+    @media (min-width: 768px) {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      margin-left: -20px;
+    }
+  }// end report flex
+
+  &-image {
+    display: block;
+    width: 100%;
+  }
+}// end report
+
 // Vendors
 
 .vendors {
