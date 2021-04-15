@@ -178,6 +178,39 @@ aside {
   }
 }
 
+// Home
+
+.home {
+  &-vendors {
+    &-item {
+      position: relative;
+
+      &-image {
+        height: 300px;
+        object-fit: cover;
+        object-position: top 35% left 0;
+        width: 100%;
+      }
+
+      &-link {
+        color: #fff !important;
+        text-decoration: none !important;
+      }
+    }// end home vendors item
+
+    &-link {
+      bottom: 0;
+      height: 100%;
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 100%;
+      // z-index: 1;
+    }
+  }// end home vendors
+}// end home
+
 // Homepage Header
 
 .header {
