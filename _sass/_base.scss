@@ -218,8 +218,9 @@ aside {
   width: 100%;
   min-height: auto;
   @include background-cover;
-  background-position: center;
+  background-position: bottom;
   background-image: url('../img/home-hero.jpg');
+  background-repeat: no-repeat;
   text-align: center;
   color: #fff;
 
